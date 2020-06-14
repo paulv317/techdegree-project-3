@@ -1,0 +1,185 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.4;
+    color: #020300;
+}
+
+h1 {
+    text-transform: uppercase;
+    background: #2d3142;
+    color: white;
+    padding: 10px 0;
+    margin: 0;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+/*  Main Styles  */
+
+fieldset {
+    border: none;
+    border-radius: 3%;
+}
+
+legend {
+    font-size: 1.8em;
+    margin-left: 12px;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    background-color: #4f5d75;
+    padding: 10px 0 40px 0;
+    color: white;
+}
+
+input:hover,
+input:focus,
+select:focus {
+    border: none;
+    outline: none;
+    background: #ef8354;
+}
+
+input, 
+select,
+textarea {
+    background-color: #d6d7d7;
+    padding: 12px;
+}
+
+input,
+select,
+textarea,
+button {
+    border: none;
+    border-radius: 10px;
+    font-size: 1.3em;
+}
+
+header p {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container {
+    width: 95%;
+    margin: 20px auto;
+}
+
+.width {
+    width: 98%;
+}
+
+label,
+textarea {
+    display: block;
+    margin-top: 15px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin: 15px 5px 0 0;
+}
+
+input[placeholder] {
+    font-size: .75em;
+    text-align: right;
+}
+
+#htmlnews,
+#html {
+    margin-top: 20px;
+}
+
+#javascriptnews, 
+#plaintext {
+    margin-bottom: 20px;
+}
+
+label.light {
+    display: inline;
+}
+
+textarea {
+    height: 150px;
+}
+
+.contact::before,
+.newsletter::before {
+    content: "";
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background-color: #ef8354;
+    margin: 0 10px;
+}
+
+input[type="checkbox"]:checked + label,
+input[type="radio"]:checked + label {
+    font-weight: bold;
+}
+
+button {
+    cursor: pointer;
+    padding: 20px 0;
+    background: #ef8354;
+    color: white;
+}
+
+
+footer {
+    width: 80%;
+    margin: 10px auto 20px auto;
+    text-align: center;
+}
+
+@media(min-width: 768px) {
+
+header {
+    width: 60%;
+    margin: 20px auto;
+}
+
+.container {
+    width: 60%;
+    margin: 10px auto;
+}
+
+.content {
+    width: 100%;
+}
+
+.label {
+    display: inline-block;
+    width: 20%;
+}
+
+.width {
+    width: 79%;
+}
+
+input,
+select,
+textarea {
+    margin-top: 20px;
+}
+
+.big {
+    width: 100%;
+}
+
+button {
+    padding: 30px 0;
+}
+
+
+
+}
