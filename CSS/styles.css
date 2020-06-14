@@ -61,6 +61,7 @@ select:focus {
 
 button:hover {
     background-color: #EB6328;
+    transition: background-color 1s;
 }
 
 input, 
