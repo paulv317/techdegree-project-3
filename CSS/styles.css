@@ -41,10 +41,20 @@ header {
 
 input:hover,
 input:focus,
-select:focus {
-    border: none;
+select:focus, 
+textarea:focus, 
+textarea:hover {
     outline: none;
+}
+
+input:hover,
+input:focus,
+select:focus {
     background: #ef8354;
+}
+
+button:hover {
+    background-color: #EB6328;
 }
 
 input, 
